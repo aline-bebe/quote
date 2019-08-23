@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>quotes</title>
+</head>
+<body>
+    <h1>Best Quotes</h1>
+    <ul>
+            <div *ngFor='let read of quote;let i = index'>
+              <li>{{read.name}} due on {{quote.completeDate|date|uppercase}}</li>
+              <button (click)='words(i)' class="btn btn-primary">Details</button>
+              <app-quotes-details *ngIf='read.showDescription' [quote]='read' (isComplete) = 'delete($event,i)'></app-quotes-details>
+            </div>
+          </ul>
+         
+              
+</body>
+</html>
