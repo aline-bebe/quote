@@ -8,9 +8,9 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quote: Quote[] = [
-    new Quote(1, 'first quote', 'Find an online version and watch merlin find his son',new Date(2019,3,14)),
-    new Quote(3,'second quote','Diana has her birthday coming up soon',new Date(2019,1,12)),
-    new Quote(2,'third quotes','I have to buy cookies for the parrot',new Date(2019,6,9)),
+    new Quote(1, 'Watch finding Nemo', 'Find an online version and watch merlin find his son',new Date(2019,9,14)),
+    new Quote(2,'Buy Cookies','I have to buy cookies for the parrot',new Date(2019,6,9)),
+    new Quote(3,'Get new Phone Case','Diana has her birthday coming up soon',new Date(2019,1,12)),
   ];
 
 words(index){
@@ -25,6 +25,13 @@ words(index){
         this.quote.splice(index,1)
       }
     }
+  }
+
+  addNewGoal(read){
+    let readLength = this.quote.length;
+  read.id = readLength+1;
+    read.completeDate = new Date(read.completeDate)
+    this.quote.push(read)
   }
   constructor() { }
 
