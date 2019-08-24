@@ -10,12 +10,13 @@
     <h1>Best Quotes</h1>
     <ul>
             <div *ngFor='let read of quote;let i = index'>
-              <li>{{read.name}} due on {{quote.completeDate|date|uppercase}}</li>
+              <li>{{read.name}} due on {{read.completeDate|date|uppercase}}</li>
               <button (click)='words(i)' class="btn btn-primary">Details</button>
               <app-quotes-details *ngIf='read.showDescription' [quote]='read' (isComplete) = 'delete($event,i)'></app-quotes-details>
             </div>
           </ul>
          
-          <app-form-quote (addGoal)="addNewGoal($event)"></app-form-quote>       
+          <app-form-quote  (addQuote)="addNewQuote($event)"  ></app-form-quote>  
+         
 </body>
 </html>

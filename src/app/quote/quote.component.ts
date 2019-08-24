@@ -27,7 +27,7 @@ words(index){
     }
   }
 
-  addNewGoal(read){
+  addNewQuote(read){
     let readLength = this.quote.length;
   read.id = readLength+1;
     read.completeDate = new Date(read.completeDate)
