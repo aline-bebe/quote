@@ -8,9 +8,9 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quote: Quote[] = [
-    new Quote(1, 'Watch finding Nemo', 'Find an online version and watch merlin find his son',new Date(2019,9,14)),
-    new Quote(2,'Buy Cookies','I have to buy cookies for the parrot',new Date(2019,6,9)),
-    new Quote(3,'Get new Phone Case','Diana has her birthday coming up soon',new Date(2019,1,12)),
+    new Quote(1, 'life quote', 'Those who dare to fail miserably can achieve greatly.',new Date(2019,9,14)),
+    new Quote(2,'second quote','I’m a success today because I had a friend who believed in me and I didn’t have the heart to let him down.',new Date(2019,6,9)),
+    new Quote(3,'third quote','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world',new Date(2019,1,12)),
   ];
 
 words(index){

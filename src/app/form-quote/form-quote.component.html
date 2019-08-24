@@ -13,15 +13,25 @@
             </div>
             <div class="form-group">
       
-                <label for="description">Description</label>
-                <textarea class="form-control" id="description" rows="4" required></textarea>
+                <label for="description">Quotes</label>
+                <textarea class="form-control" id="description" rows="4" [(ngModel)]="newQuote.name" name="description" #description='ngModel' required></textarea>
          
             </div>
+            <div class="form-group">
+            <label for="name">Author</label>
+            <input type="text" required class="form-control" id="name" >
+           
+        </div>
+             
+       
+
             <div class="form-group">
                 <label for="complete">Completion</label>
                 <input type='date' id="complete" required>
       
             </div>
             <button type="submit" class="btn btn-success">submit</button>
+            
+            
         </form>
       </div>
