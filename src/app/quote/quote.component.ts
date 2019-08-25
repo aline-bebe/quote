@@ -13,7 +13,9 @@ export class QuoteComponent implements OnInit {
     new Quote(3,'birthday quote','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
     new Quote(3,'success quote','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
     new Quote(3,'thankful quote','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
+    new Quote(3,'birthday quote','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
   ];
+
 
 words(index){
     this.quote[index].showDescription = !this.quote[index].showDescription;
