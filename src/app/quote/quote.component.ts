@@ -8,12 +8,12 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quote: Quote[] = [
-    new Quote(1, 'life quote', 'Those who dare to fail miserably can achieve greatly.','bebe',new Date(2019,9,14)),
-    new Quote(2,'love quote','I’m a success today because I had a friend who believed in me and I didn’t have the heart to let him down.','dydy',new Date(2019,6,9)),
-    new Quote(3,'birthday quote','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
-    new Quote(3,'success quote','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
-    new Quote(3,'thankful quote','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
-    new Quote(3,'Bible quote','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
+    new Quote(1, 'life quotes', 'Those who dare to fail miserably can achieve greatly.','bebe',new Date(2019,9,14)),
+    new Quote(2,'love quotes','I’m a success today because I had a friend who believed in me and I didn’t have the heart to let him down.','dydy',new Date(2019,6,9)),
+    new Quote(3,'birthday quotes','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
+    new Quote(3,'success quotes','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
+    new Quote(3,'thankful quotes','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
+    new Quote(3,'Bible quotes','Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world','pupe',new Date(2019,1,12)),
   ];
 
 
