@@ -1,5 +1,11 @@
 .aline{
-    /* background-image: url("https://www.google.com/imgres?imgurl=http%3A%2F%2Fwallpoper.com%2Fimages%2F00%2F31%2F33%2F51%2Fblack-background_00313351.jpg&imgrefurl=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F28292799%2Fcss-button-background&docid=NdHotCN6rP9T4M&tbnid=7zO_z0SlazB-aM%3A&vet=10ahUKEwjHtKje4p3kAhXNy4UKHQuwCXkQMwi3ASgyMDI..i&w=2560&h=1600&bih=669&biw=1299&q=background%20image&ved=0ahUKEwjHtKje4p3kAhXNy4UKHQuwCXkQMwi3ASgyMDI&iact=mrc&uact=8"); */
+    /* background-image: url("background-color: url(https://www.pexels.com/photo/ripples-in-brown-sand-1535421/);"); */
     background-size: cover;
     background-color: rgb(203, 215, 219);
 }
+.footer{
+    text-align: center;
+    margin-top: 0%;
+    color: rgb(10, 10, 10);
+
+  }

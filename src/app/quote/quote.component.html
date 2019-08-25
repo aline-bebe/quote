@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>quotes</title>
 </head>
-<body>
+<body ng-controller="MainCtrl">
   <div class="aline">
     <h1>Best Quotes</h1>
     <ul>
@@ -19,9 +19,15 @@
             <app-quotes-details *ngIf='read.showDescription' [quote]='read' (isComplete) = 'delete($event,i)'></app-quotes-details>
             </div>
           </ul>
+          
          
           <app-form-quote  (addQuote)="addNewQuote($event)"  ></app-form-quote>  
+  
          
 </div> 
+<div class="footer"  >
+    <p>copyright 2019</p>
+    </div>
+
 </body>
 </html>

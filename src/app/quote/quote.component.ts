@@ -33,6 +33,8 @@ words(index){
     read.completeDate = new Date(read.completeDate)
     this.quote.push(read)
   }
+
+  
   constructor() { }
 
   ngOnInit() {
