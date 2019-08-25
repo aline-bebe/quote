@@ -13,17 +13,17 @@ export class QuotesDetailsComponent implements OnInit {
     this.isComplete.emit(complete);
   }
   votequote = 0;
-  // voteshow =true;
+  
   voteshow(){
-//  this.voteshow = true;
+
   this.votequote = this.votequote+ 1;
 
   }
   downloadquote = 0;
-  // downloadshow =true;
+ 
   
   downloadshow(){
-//  this. downloadshow = true;
+
  this. downloadquote = this. downloadquote+ 1;
 
   }
