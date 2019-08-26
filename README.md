@@ -1,3 +1,30 @@
+
+# view Quote
+## Author
+this is Aline Ingabire, Am the own who developed this site.
+## DESCRIPTION
+### view Quote
+this project will help people to create your   favorites quote and leke, unlike your best quotes.
+
+## TECHNOLOGY USED
+* find visual studio
+* ubuntu , terminal
+* downloading bootstrap  and then copy file of bootstrap which called bootstrap.min.css.
+* Angular cli
+* git clone
+* code .
+
+  
+## BDD
+ **Input**
+ once you want to view your quote on this website you will first click on view quote.
+then fill a form to create your  your favorite quote.
+ **Output**
+  The client will be able to like and unlike their favorite quote .
+   and also you can be able to delete your quote.
+## PROJECT LINK
+    https://github.com/aline-bebe/quote
+
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
@@ -26,3 +53,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # quote
+
+## LICENSE
+Licensed by MIT copyright @ 2019 

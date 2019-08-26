@@ -1,7 +1,7 @@
 .aline{
-    /* background-image: url("background-color: url(https://www.pexels.com/photo/ripples-in-brown-sand-1535421/);"); */
+    background-image: url("src/assets/flower-3175428__340.jpg");
     background-size: cover;
-    background-color: rgb(203, 215, 219);
+    /* background-color: rgb(203, 215, 219); */
 }
 .footer{
     text-align: center;
