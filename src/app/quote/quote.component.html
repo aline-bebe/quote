@@ -1,32 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>quotes</title>
-</head>
-<body >
-  <div class="aline">
-    <h1>Welcome to Famous Quotes!</h1>
-   
-    <ul>
-            <div *ngFor='let read of quote;let i = index'>
-              <li>{{read.name}} due on {{read.completeDate|date|uppercase}}</li>
-              <button (click)='words(i)' class="btn btn-dark">view-quote</button> 
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>quotes</title>
+  </head>
+  <body >
+    <div class="aline">
+      <h1>Welcome to Famous Quotes!</h1>
+    
+      <ul>
+              <div *ngFor='let read of quote;let i = index'>
+                <li>{{read.name}} due on {{read.completeDate|date|uppercase}}</li>
+                <button (click)='words(i)' class="btn btn-dark">view-quote</button> 
+              
+              <app-quotes-details *ngIf='read.showDescription' [quote]='read' (isComplete) = 'delete($event,i)'></app-quotes-details>
+              </div>
+            </ul>
             
-            <app-quotes-details *ngIf='read.showDescription' [quote]='read' (isComplete) = 'delete($event,i)'></app-quotes-details>
-            </div>
-          </ul>
           
-         
-          <app-form-quote  (addQuote)="addNewQuote($event)"  ></app-form-quote>  
-  
-         
+            <app-form-quote  (addQuote)="addNewQuote($event)"  ></app-form-quote>  
+    
+          
 
-<div class="footer"  >
-    <p>copyright 2019</p>
-    </div>
-  </div> 
-</body>
-</html>
+  <div class="footer"  >
+      <p>copyright 2019</p>
+      </div>
+    </div> 
+  </body>
+  </html>

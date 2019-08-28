@@ -1,15 +1,15 @@
-.aline{
-    background-image: url("src/assets/flower-3175428__340.jpg");
-    background-size: cover;
-   
-}
-.footer{
-    text-align: center;
-    margin-top: 2%;
-    color: rgb(10, 10, 10);
+    .aline{
+        background-image: url("src/assets/flower-3175428__340.jpg");
+        background-size: cover;
+    
+    }
+    .footer{
+        text-align: center;
+        margin-top: 2%;
+        color: rgb(10, 10, 10);
 
-  }
-  h1{
-      text-align: center;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  }
+    }
+    h1{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
